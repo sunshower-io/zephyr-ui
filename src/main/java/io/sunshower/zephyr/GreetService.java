@@ -1,4 +1,4 @@
-package com.example.demo;
+package io.sunshower.zephyr;
 
 public class GreetService {
 

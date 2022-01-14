@@ -115,7 +115,7 @@
       "workbox-precaching": "6.4.2",
       "workbox-webpack-plugin": "6.4.2"
     },
-    "hash": "18fe283d156879f39ae3b6fada57d3218a24a191052315be7832ba14e25ba0fb"
+    "hash": "02b39a3eb27ff705f02a39874c9703a373aec0a0563151e83047de48c3497508"
   },
   "dependencies": {
     "@polymer/iron-icon": "3.0.1",
@@ -207,6 +207,8 @@
     "@vaadin/virtual-list": "22.0.2",
     "construct-style-sheets-polyfill": "3.0.4",
     "date-fns": "2.23.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "lit": "2.0.0"
   },
   "devDependencies": {
@@ -226,6 +228,7 @@
     "html-webpack-plugin": "4.5.1",
     "lit-css-loader": "0.1.0",
     "loader-utils": "2.0.0",
+    "node-sass": "^7.0.1",
     "typescript": "4.4.3",
     "webpack": "4.46.0",
     "webpack-cli": "4.9.0",
@@ -234,5 +237,9 @@
     "workbox-core": "6.4.2",
     "workbox-precaching": "6.4.2",
     "workbox-webpack-plugin": "6.4.2"
+  },
+  "scripts": {
+    "develop": "npx gulp scss:watch",
+    "build": "npx gulp scss:build"
   }
 }
